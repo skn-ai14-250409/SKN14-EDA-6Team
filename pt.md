@@ -294,7 +294,7 @@ dfp = df_pass_dummies.copy()
 
 **데이터 특성**  
 - **불균형 변수**: `No_Show`(96% No)은 분석에서 제외 
-- **상관관계**: `Flight_Satisfaction_Score`와 `Price_USD`(0.015), `Age`(0.001)의 약한 양적 연관 
+- **상관관계**: `Flight_Satisfaction_Score`와 Booking_Lead_Time'의 양적 연관, 'Delay_Minute'과의 음적 연 
 
 **모델링 제안**  
 1. **분류 모델 우선 적용**: 로지스틱 회귀와 랜덤포레스트 성능 비교
