@@ -62,6 +62,34 @@
   `Frequent_Flyer_Status`, `Check_in_Method`, `Flight_Satisfaction_Score`, `Delay_Minutes`, `Age`, 
   `Weather_Impact`, `Booking_Days_In_Advance`, `Seat_Selected`, `Booking_Lead_Time`
 ```
+| 컬럼명                    | 설명                                         |
+|----------------------------|----------------------------------------------|
+| Passenger_ID              | 승객 고유 ID                                 |
+| Flight_ID                 | 항공편 고유 ID                               |
+| Airline                   | 항공사 이름                                  |
+| Departure_Airport         | 출발 공항 코드                               |
+| Arrival_Airport           | 도착 공항 코드                               |
+| Departure_Time            | 출발 시간 (날짜 및 시간)                     |
+| Flight_Duration_Minutes   | 비행 시간 (분 단위)                          |
+| Flight_Status             | 비행 상태 (정시, 지연 등)                    |
+| Distance_Miles            | 비행 거리 (마일)                             |
+| Price_USD                 | 비행 가격 (USD)                              |
+| Age                       | 승객 나이                                    |
+| Gender                    | 성별 (Male/Female)                           |
+| Income_Level              | 소득 수준 (Low, Medium, High)                |
+| Travel_Purpose            | 여행 목적 (비즈니스, 레저, 가족 방문 등)     |
+| Seat_Class                | 좌석 등급 (Economy, Business 등)             |
+| Bags_Checked              | 체크인한 수하물 개수                         |
+| Frequent_Flyer_Status     | 항공사 고객 등급 (Silver, Gold, Platinum 등) |
+| Check_in_Method           | 체크인 방법 (온라인, 공항 키오스크 등)       |
+| Flight_Satisfaction_Score | 비행 만족도 점수 (0~10)                      |
+| Delay_Minutes             | 출발 지연 시간 (분 단위)                     |
+| Booking_Days_In_Advance   | 사전 예약 일수                               |
+| No_Show                   | 탑승 여부 (0: 탑승, 1: 노쇼)                 |
+| Weather_Impact            | 날씨 영향 여부 (0: 없음, 1: 있음)            |
+| Seat_Selected             | 좌석 선택 여부 (Aisle, Middle, Window)       |
+| Booking_Lead_Time         | 예약 리드 타임 (예약 후 출발까지 남은 일수)  |
+
 
 ### 3. **기술 통계 및 데이터 요약**
 * 수치형 변수: 평균, 중앙값, 표준편차, 최소/최대
